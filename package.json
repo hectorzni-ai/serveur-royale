@@ -1,0 +1,17 @@
+{
+  "name": "serveur-royale",
+  "version": "1.0.0",
+  "description": "Serveur multijoueur pour le jeu Survie Royale 3D",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "socket.io": "^4.7.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
